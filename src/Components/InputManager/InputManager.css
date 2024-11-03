@@ -1,0 +1,16 @@
+.top-line{
+    margin-bottom: 1.5rem;
+}
+.top-line button{
+    border: none;
+    background: #cce8fe;
+    padding: 0.5rem;
+    width: 8rem;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.top-line button.active{
+    background: #2196F3;
+    color: white;
+    transform: scaleY(1.1);
+}

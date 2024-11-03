@@ -1,0 +1,25 @@
+.buttons{
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+.buttons button{
+    background: #cce8fe;
+    width: 6rem;
+    border: 1px solid #2196f3;
+    color: #2196f3;
+    height: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.buttons button.green{
+    background: #b3ffb6;
+    border: 1px solid #4CAF50;
+    color: #4CAF50;
+}
+.buttons button.red{
+    background: #ffdcd9;
+    border: 1px solid #F44336;
+    color: #F44336;
+}

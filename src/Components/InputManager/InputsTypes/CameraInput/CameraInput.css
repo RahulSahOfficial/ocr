@@ -1,0 +1,10 @@
+.react-html5-camera-photo {
+    width: 400px;
+    height: 400px;
+    background: black;
+    position: relative;
+}
+.react-html5-camera-photo>img, .react-html5-camera-photo>video{
+    width: 400px;
+    height: 400px;
+}
